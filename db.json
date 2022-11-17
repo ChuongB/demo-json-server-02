@@ -1,9 +1,55 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "products": [
+    {
+      "image": "https://sparkimg.nl/cdn-cgi/image/w=960,h=640,fit=pad,f=auto/https://static.iphoned.nl/orca/products/18695/apple-iphone-14-pro.jpg",
+      "name": "Iphone 14 Pro Max 256Gb",
+      "price": 1000,
+      "SKU": "sku",
+      "id": "1",
+      "description": "Ceramic Shield front Textured matte glass back and stainless steel design"
+    },
+    {
+      "name": "Iphone 14 Pro Max 256Gb",
+      "SKU": "Iphone 14",
+      "description": "Iphone 14 Pro Max 256Gb",
+      "price": "10000",
+      "image": "https://sparkimg.nl/cdn-cgi/image/w=960,h=640,fit=pad,f=auto/https://static.iphoned.nl/orca/products/18695/apple-iphone-14-pro.jpg",
+      "createdDate": "Thu Nov 03 2022 21:13:48 GMT+0700 (Indochina Time)",
+      "id": "hB6vLij"
+    },
+    {
+      "name": "Iphone 14 Pro Max 256Gb",
+      "SKU": "iphone",
+      "description": "Iphone 14 Pro Max 256Gb",
+      "price": "1000",
+      "image": "https://sparkimg.nl/cdn-cgi/image/w=960,h=640,fit=pad,f=auto/https://static.iphoned.nl/orca/products/18695/apple-iphone-14-pro.jpg",
+      "createdDate": "Thu Nov 03 2022 21:16:13 GMT+0700 (Indochina Time)",
+      "id": "zRFubwI"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "email": "thechuong0806@gmail.com",
+      "fullname": "chuong5",
+      "password": "11111111",
+      "confirmPassword": "11111111",
+      "id": 1,
+      "address": "HCM",
+      "updatedDate": "Tue Nov 01 2022 20:03:31 GMT+0700 (Indochina Time)"
+    },
+    {
+      "email": "thechuong0808@gmail.com",
+      "fullname": "chuong",
+      "password": "11111111",
+      "confirmPassword": "11111111",
+      "id": 2
+    },
+    {
+      "email": "minhanh1747@gmail.com",
+      "fullname": "Chuong Bui",
+      "password": "11111111",
+      "confirmPassword": "11111111",
+      "id": 3
+    }
+  ]
 }
